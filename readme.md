@@ -1,21 +1,47 @@
 # Dev Challenge
 
-This repository contains the frontend application in the  `my-app` folder and the backend in the `myapi` folder. 
+This repository contains the frontend application in the  `my-app` folder and the backend in the `myapi` 
+folder. 
 
-They are not fully complete due to an error I was receiving in regards to `cors`. This hindered my effort to have both parts of the system communicating.
 
-I implemented backend functions to do `factorial`, `common multiples` and `squarerroot`. 
+# PROJECT SETUP
 
-They are accessible via the following urls.
+Clone the repository and run the following commands
+```
+git clone https://github.com/elijah0kello/dev_challenge.git
+```
 
-> localhost:8000/factorial/
+Then run the following commands
+```
+cd dev_challenge
 
-Provide a post request with a variable called `operand`
+python3 -m venv env
 
-> localhost:8000/common/
+source env/bin/activate
 
-Provide a post request with two variables called `operand1` and `operand2`
+python3 -m pip install -r requirements.txt
+```
 
-> localhost:8000/squareroot/
+# BACKEND
 
-Provide a post request with a variable called `operand`
+The backend is in the folder called `myapi`. To run it run. Open a new terminal and run the following commands
+
+```
+cd myapi
+
+python3 manage.py runserver
+```
+
+# FRONTEND
+
+The frontend is in the folder called `myapp` to run it run
+
+``` 
+$ cd my-app
+
+$ npm i
+
+$ npm start
+```
+
+After this both the backend in django and the frontend in react are running

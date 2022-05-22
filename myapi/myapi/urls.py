@@ -15,12 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from dev_challenge.views import authview, commoNMultiples, factoriaL, squareRoot 
+from dev_challenge.views import authview, commoNMultiples, factoriaL, squareRoot, home
+# from myapi.dev_challenge.views import home 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', authview, name="auth"),
     path('factorial/', factoriaL),
     path('squareroot/',squareRoot),
-    path('common/',commoNMultiples)
+    path('common/',commoNMultiples),
+    path('home/',home)
 ]

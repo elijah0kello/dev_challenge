@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'dev_challenge',
+    'dev_challenge.apps.DevChallengeConfig',
     'corsheaders',
 ]
 

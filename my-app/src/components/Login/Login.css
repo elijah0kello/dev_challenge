@@ -1,5 +1,41 @@
-.login-wrapper {
+.login-wrapper-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.login-cont{
+    margin-top:1em;
+    background-color: rgb(209, 213, 217);
+    padding: 3em;
+    border-radius: 20px;
+}
+
+.input-cont{    
+    margin: 0.6em;
+}
+
+input{
+    border:0px;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+button{
+    border: 0px;
+    background-color: rgb(36, 36, 119);
+    color:white;
+    padding: 0.5em;
+    border-radius: 10px;
+    margin-top: 0.3em;
+}
+
+.label{
+    font-size: 11px;
+    margin-left: 0.8em;
+    color:blue;
+}
+
+.headTitle{
+    text-align: center;
 }
